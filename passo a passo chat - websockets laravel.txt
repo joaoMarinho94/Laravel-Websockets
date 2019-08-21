@@ -1,0 +1,51 @@
+1° criar model e migrate - message
+	criar relação de mensagens no model
+
+2° criar relação de usuários no model Users
+
+3° criar rota chats para ChatsController
+
+4° criar controller ChatsController
+
+5° adiciona middleware de autenticação para somente usuários autenticados possam acessar
+
+6° criar sistema de autenticação interno do laravel - auth
+
+7° criar view chats
+
+8° executar comando - npm run watch | responsável por complilar alterações
+
+9° alterar nome do componente vue - ExampleComponent para ChatsComponent | modificar 
+	também no arquivo app as referências para chats
+
+10° criar layout no componente
+
+11° criar rota para buscar mensagens
+
+12° criar função no ChatsControllerpara buscar imagens
+
+13° criar rota para enviar mensagens
+
+14° criar função no ChatsController para enviar novas mensagens
+
+15° usar as funções do controller no ChatsComponent 
+
+16° criar evento messageSent - php artisan make:event MessageSent
+	configurá-lo
+
+17° criar canal de transmissão | routes/channels
+
+18° adicionar método na função sendMessage do ChatsController
+
+19° ouvir o evento enviado por mensagem no ChatsComponent
+
+20° reiniciar servidor websocket
+
+21° mostrar todos usuários ativos | inicializar matriz de usuários vazia 
+
+22° como mudamos de PrivateChannel para PresenceChannel, podemos usar métodos adicionais
+	no ChatsComponent
+
+23° ativar configuração client_messages | config/websockets.php
+
+24° adicionar método ouvir digitação para todos usuários no ChatsComponent | reiniciar servidor php e websocket
